@@ -1,0 +1,26 @@
+{
+  "name": "fontline-server",
+  "version": "1.0.0",
+  "description": "Server app for run all logic of back-end of the FontLine.",
+  "main": "index.js",
+  "repository": "https://github.com/jfontes204/fontline-server",
+  "author": "JFontes",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  }
+}
